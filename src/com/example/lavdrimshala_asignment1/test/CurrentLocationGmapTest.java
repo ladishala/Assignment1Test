@@ -1,23 +1,18 @@
 package com.example.lavdrimshala_asignment1.test;
 
-import java.util.Timer;
-import java.util.TimerTask;
+
 
 import junit.framework.Assert;
 
 import com.example.lavdrimshala_asignment1.CurrentLocationGmap;
 
 import android.app.Activity;
-import android.location.Location;
-import android.os.Handler;
 import android.test.ActivityInstrumentationTestCase2;
-import android.util.Log;
 
 public class CurrentLocationGmapTest extends
 		ActivityInstrumentationTestCase2<CurrentLocationGmap> {
 	
 	Activity objActivity;
-	float variable;
 	public CurrentLocationGmapTest()
 	{
 		super("com.example.lavdrimshala_asignment1",CurrentLocationGmap.class);
